@@ -23,8 +23,8 @@ while(True):
         #     file.write(content)
         while (con == "y"):
 
-            name = input("name?")
-            value = input("value?")
+            name = input("Whats the name of the propertie: ")
+            value = input("Whats the value of the propertie:?")
             line =f"{line} \"{name}\" : \"{value}\""
             con = input("Do you want to continue(y/n): ")
             if (con == "y"):
